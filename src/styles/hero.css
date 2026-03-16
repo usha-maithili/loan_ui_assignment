@@ -1,0 +1,57 @@
+.hero-card {
+  background-color: #3f86a6;
+  border-radius: 12px;
+  padding: 60px 50px;
+  color: white;
+}
+
+.btn-outline-light:hover{
+  background-color: white;
+  color: #3F86A6 !important;
+}
+
+/* Mobile fix */
+@media (max-width: 576px){
+  .hero-buttons .btn{
+    width: 70% !important;
+  }
+}
+
+/* Responsive heading */
+.hero-card h1 {
+  font-size: 42px;
+}
+
+@media (max-width: 768px) {
+  .hero-card {
+    padding: 35px 25px;
+  }
+
+  .hero-card h1 {
+    font-size: 28px;
+  }
+}
+.hero-chatbot{
+position:absolute;
+right:10px;
+bottom:10px;
+width:70px;
+cursor:pointer;
+animation:chatbotBlink 1.5s infinite;
+}
+
+@keyframes chatbotBlink{
+
+0%{
+transform:scale(1);
+}
+
+50%{
+transform:scale(1.08);
+}
+
+100%{
+transform:scale(1);
+}
+
+}

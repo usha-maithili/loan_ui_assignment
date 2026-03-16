@@ -1,0 +1,29 @@
+.discover-btn {
+  border: 1px solid #3F86A6;
+  color: #3F86A6;
+  background-color: transparent;
+}
+
+.discover-btn:hover {
+  background-color: #3F86A6;
+  color: white;
+  border-color: #3F86A6;
+}
+
+.benefit-image {
+  height: 200px;
+  width: 80%;
+  object-fit: cover;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+
+  .benefit-image {
+    height: 260px;   /* reduced height */
+    width: 100%;     /* fill width */
+    display: block;
+    margin: 0 auto;  /* center image */
+  }
+
+}

@@ -1,0 +1,21 @@
+/* Desktop logo size */
+.navbar-logo {
+  height: 80px;
+}
+
+/* Mobile logo size */
+@media (max-width: 576px) {
+  .navbar-logo {
+    height: 50px;
+  }
+}
+
+/* Reduce button size for very small screens like 320px */
+@media (max-width: 360px) {
+
+  .navbar .btn {
+    padding: 4px 8px;
+    font-size: 13px;
+  }
+
+}
