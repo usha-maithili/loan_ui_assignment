@@ -43,15 +43,15 @@ const ChatbotSection: React.FC = () => {
                     <div className="quick-links">
                         <h6>Quick Links</h6>
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Login / Sign up</a></li>
-                            <li><a href="#">EMI breakdown</a></li>
-                            <li><a href="#">Uploading Documents</a></li>
-                            <li><a href="#">Explain CIBIL / LTV Ratio</a></li>
-                            <li><a href="#">Comparing Options</a></li>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/">Login / Sign up</a></li>
+                            <li><a href="/">EMI breakdown</a></li>
+                            <li><a href="/">Uploading Documents</a></li>
+                            <li><a href="/">Explain CIBIL / LTV Ratio</a></li>
+                            <li><a href="/">Comparing Options</a></li>
 
                             <li className="help-link">
-                                <a href="#">Learn how I can help you</a>
+                                <a href="/">Learn how I can help you</a>
                                 <i className="bi bi-box-arrow-up-right"></i>
                             </li>
                         </ul>
@@ -67,13 +67,13 @@ const ChatbotSection: React.FC = () => {
                     <div className="chat-messages">
                         {messages.map((msg, index) => (
                             <div key={index} className="message-row">
-                                <img src={chatbot} className="chat-avatar" />
+                                <img src={chatbot} alt="chatbot" className="chat-avatar" />
                                 <div className="bot-msg">{msg.text}</div>
                             </div>
                         ))}
                     </div>
                     <div className="chat-input-area">
-                        <img src={chatbot} className="chat-avatar" />
+                        <img src={chatbot} alt="chatbot" className="chat-avatar" />
                         <input
                             value={input}
                             onChange={(e) => setInput(e.target.value)}
@@ -89,7 +89,7 @@ const ChatbotSection: React.FC = () => {
                             <i className="bi bi-download"></i>
                             <i className="bi bi-trash"></i>
                             <span className="lang">EN</span>
-                            <img src={chatbot} className="chatbot-icon" />
+                            <img src={chatbot} alt="chatbot" className="chatbot-icon" />
                         </div>
                     </div>
                 </div>

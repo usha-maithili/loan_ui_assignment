@@ -19,7 +19,7 @@ const Navbar: React.FC = () => {
 
         {/* Logo */}
         {/* Logo size reduced only on mobile to prevent layout breaking */}
-        <a className="navbar-brand ms-2" href="#">
+        <a className="navbar-brand ms-2" href="/">
           <img
             src={logo}
             alt="logo"
@@ -46,31 +46,31 @@ const Navbar: React.FC = () => {
           <ul className="navbar-nav ms-4">
 
             <li className="nav-item">
-              <a className="nav-link fs-5" href="#">Loans</a>
+              <a className="nav-link fs-5" href="/">Loans</a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link fs-5" href="#">Insurance</a>
+              <a className="nav-link fs-5" href="/">Insurance</a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link fs-5" href="#">Compare</a>
+              <a className="nav-link fs-5" href="/">Compare</a>
             </li>
 
             {/* Dropdown */}
             <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle fs-5"
-                href="#"
+                href="/"
                 data-bs-toggle="dropdown"
               >
                 Resources
               </a>
 
               <ul className="dropdown-menu">
-                <li><a className="dropdown-item" href="#">Resource 1</a></li>
-                <li><a className="dropdown-item" href="#">Resource 2</a></li>
-                <li><a className="dropdown-item" href="#">Resource 3</a></li>
+                <li><a className="dropdown-item" href="/">Resource 1</a></li>
+                <li><a className="dropdown-item" href="/">Resource 2</a></li>
+                <li><a className="dropdown-item" href="/">Resource 3</a></li>
               </ul>
             </li>
 
