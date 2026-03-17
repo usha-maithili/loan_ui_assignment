@@ -43,6 +43,7 @@ const HeroSection: React.FC<Props> = ({ toggleChatbot }) => {
 
             <img
               src={chatbot}
+              alt="chatbot"
               className="hero-chatbot"
               onClick={toggleChatbot}
             />
